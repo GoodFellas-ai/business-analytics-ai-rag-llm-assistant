@@ -16,7 +16,9 @@ RAG Architecture
 LLM-based Question Answering
 Vector Search
 
-Interactive Dashboarding
+
+## Interactive Dashboarding
+
 Users can ask questions such as:
 "Which country generated the highest revenue?"
 "What were the monthly sales trends?"
@@ -43,7 +45,9 @@ Streamlit
 Vector Embeddings
 all-MiniLM-L6-v2
 
-📊 Features
+
+## 📊 Features
+
 Interactive Business Analytics Dashboard
 Natural Language Question Answering
 KPI Monitoring
@@ -54,8 +58,10 @@ Bilingual Response Support (English & Turkish)
 Retrieval-Augmented Generation (RAG)
 
 
-🗂️ Project Structure
-Bash
+## 🗂️ Project Structure
+
+# Bash
+
 business-analytics-ai-rag-llm-assistant/
 │
 ├── app/
@@ -74,7 +80,10 @@ business-analytics-ai-rag-llm-assistant/
 ├── README.md
 └── .env
 
-⚙️ Installation
+----
+
+## ⚙️ Installation
+
 Clone the repository:
 Bash
 git clone <your-repo-link>
@@ -87,21 +96,27 @@ Windows
 Bash
 .venv\Scripts\activate
 
+
 Install dependencies:
 Bash
 pip install -r requirements.txt
 
-🔑 Environment Variables
+
+## 🔑 Environment Variables
+
 Create a .env file:
 Plain text
 GROQ_API_KEY=your_api_key_here
 
-▶️ Run the Application
+
+## ▶️ Run the Application
 Bash
 streamlit run app/app.py
 
-📈 Dataset
-Dataset used:
+
+## 📈 Dataset
+# Dataset used:
+
 Online Retail Dataset
 The dataset contains transactional retail sales records including:
 Invoice information
@@ -111,7 +126,9 @@ Customer IDs
 Countries
 Revenue data
 
-🧩 RAG Workflow
+
+## 🧩 RAG Workflow
+
 Plain text
 Business Data
 → Data Cleaning & Analytics
@@ -121,12 +138,14 @@ Business Data
 → Similarity Retrieval
 → LLM Response Generation
 
-🌍 Deployment
+## 🌍 Deployment
+
 The application is designed for deployment on:
 Hugging Face Spaces
 Streamlit Cloud
 
-🎯 Future Improvements
+## 🎯 Future Improvements
+
 Advanced KPI dashboards
 RAG evaluation with RAGAS
 FAISS support
@@ -135,5 +154,6 @@ Multi-dataset support
 Advanced business forecasting
 SQL agent integration
 
-👨‍💻 Author
-Developed by Erdal as part of an AI, Data Science, and Business Intelligence portfolio project.
+## 👨‍💻 Author
+
+Developed by Erdal Goodman as part of an AI, Data Science and Business Intelligence portfolio project.

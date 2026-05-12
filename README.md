@@ -1,4 +1,4 @@
-## BUSINESS ANALYTICS AI - LLM - RAG  ASSISTANT
+# BUSINESS ANALYTICS AI - LLM - RAG  ASSISTANT
 
 
 Upload your sales data and ask questions about your business! This AI-LLM-RAG application deployed on Streamlit, using ChromaDB for vector storage and GROQ for LLM responses.
@@ -60,7 +60,7 @@ Retrieval-Augmented Generation (RAG)
 
 ## 🗂️ Project Structure
 
-# Bash
+ Bash
 
 business-analytics-ai-rag-llm-assistant/
 │

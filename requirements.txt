@@ -1,0 +1,15 @@
+streamlit
+langchain
+langchain-core
+langchain-community
+langchain-classic
+langchain-groq
+langchain-huggingface
+chromadb
+sentence-transformers
+python-dotenv
+plotly
+pandas
+pypdf
+sqlalchemy
+psycopg2-binary

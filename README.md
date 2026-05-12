@@ -1,4 +1,4 @@
--- BUSINESS ANALYTICS AI - LLM - RAG  ASSISTANT
+## BUSINESS ANALYTICS AI - LLM - RAG  ASSISTANT
 
 
 Upload your sales data and ask questions about your business! This AI-LLM-RAG application deployed on Streamlit, using ChromaDB for vector storage and GROQ for LLM responses.
@@ -6,7 +6,7 @@ business-analytics-ai-rag-llm-assistant
 AI-powered Business Analytics Assistant using RAG (Retrieval-Augmented Generation), LLMs, and Vector Databases for intelligent business insight generation from retail sales data.
 
 
--- 🚀 Project Overview
+## 🚀 Project Overview
 This project is an end-to-end Business Intelligence + AI application that allows users to analyze sales data using natural language questions.
 The system combines:
 Business Analytics

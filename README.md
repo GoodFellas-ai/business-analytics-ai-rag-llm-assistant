@@ -5,7 +5,7 @@ Upload your sales data and ask questions about your business! This AI-LLM-RAG ap
 business-analytics-ai-rag-llm-assistant.
 AI-powered Business Analytics Assistant using RAG (Retrieval-Augmented Generation), LLMs, and Vector Databases for intelligent business insight generation from retail sales data.
 
-# THIS APP SUPPORTS ENGLISH AND TURKISH LANGUAGES #..
+# THIS APP SUPPORTS ENGLISH AND TURKISH LANGUAGES!
 
 ----
 ----

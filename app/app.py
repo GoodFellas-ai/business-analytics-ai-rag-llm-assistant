@@ -29,7 +29,7 @@ st.set_page_config(
 st.title("📊 Business Analytics AI Assistant")
 
 st.subheader(
-    "Ask questions, get insights, and make data-driven decisions."
+    "Please ask some kind of questions. Then get well insights and make data-driven decisions."
 )
 
 st.caption("RAG + ChromaDB + GROQ LLM + Streamlit")
@@ -58,20 +58,19 @@ if df is not None:
     top_country = df.groupby("Country")["Revenue"].sum().idxmax()
 
     total_customers = df["CustomerID"].nunique()
+col1, col2, col3 = st.columns(3)
 
-    col1, col2, col3 = st.columns(3)
-
-    col1.metric("Revenue", f"${total_revenue:,.0f}")
-    col2.metric("Top Country", top_country)
-    col3.metric("Customers", total_customers)
+col1.metric("💰 Revenue", f"${total_revenue:,.0f}")
+col2.metric("🌍 Top Country", top_country)
+col3.metric("👥 Customers", total_customers)
 
     c1, c2 = st.columns(2)
 
-    with c1:
-        st.plotly_chart(revenue_chart(df), use_container_width=True)
+with c1:
+    st.plotly_chart(revenue_chart(df), use_container_width=True)
 
-    with c2:
-        st.plotly_chart(country_chart(df), use_container_width=True)
+with c2:
+    st.plotly_chart(country_chart(df), use_container_width=True)
 
 st.markdown("---")
 

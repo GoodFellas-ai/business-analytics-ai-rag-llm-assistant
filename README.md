@@ -31,34 +31,34 @@ The application retrieves relevant business insights from a vector database and 
 
 ## 🧠 Technologies Used
 
-AI / LLM / RAG
-Llama 3.1 (via GROQ API)
-LangChain
-ChromaDB
-Sentence Transformers
-RAG Pipeline Architecture
-Data Science & Analytics
-Python
-Pandas
-NumPy
-Matplotlib
-Plotly
-Web Application
-Streamlit
-Vector Embeddings
-all-MiniLM-L6-v2
+- AI / LLM / RAG
+- Llama 3.1 (via GROQ API)
+- LangChain
+- ChromaDB
+- Sentence Transformers
+- RAG Pipeline Architecture
+- Data Science & Analytics
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Plotly
+- Web Application
+- Streamlit & HF
+- Vector Embeddings
+- all-MiniLM-L6-v2
 
 
 ## 📊 Features
 
-Interactive Business Analytics Dashboard
-Natural Language Question Answering
-KPI Monitoring
-Revenue Trend Analysis
-Customer & Product Insights
-Vector Similarity Search
-Bilingual Response Support (English & Turkish)
-Retrieval-Augmented Generation (RAG)
+- Interactive Business Analytics Dashboard
+- Natural Language Question Answering
+- KPI Monitoring
+- Revenue Trend Analysis
+- Customer & Product Insights
+- Vector Similarity Search
+- Bilingual Response Support (English & Turkish)
+- Retrieval-Augmented Generation (RAG)
 
 
 ## 🗂️ Project Structure

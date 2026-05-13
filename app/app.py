@@ -28,16 +28,37 @@ st.set_page_config(
 # HERO UI
 st.markdown("""
 <div style="
-    text-align:center;
-    padding: 2rem 1rem;
-    color:white;
+    text-align: center;
+    padding: 3rem 1rem;
 ">
-    <h1>📊 Business Analytics AI Assistant</h1>
-    <p>Please ask questions and get insights.</p>
-    <small>RAG + LLM + Streamlit + ChromaDB + GROQ</small>
+
+    <div style="
+        font-size: 3.2rem;
+        font-weight: 800;
+        color: #00f2fe;
+        margin-bottom: 0.5rem;
+    ">
+        📊 Business Analytics AI Assistant
+    </div>
+
+    <div style="
+        font-size: 1.2rem;
+        color: white;
+        opacity: 0.85;
+        margin-bottom: 0.3rem;
+    ">
+        Please ask questions. Get insights and make decisions.
+    </div>
+
+    <div style="
+        font-size: 0.9rem;
+        color: gray;
+    ">
+        RAG + LLM + Streamlit + ChromaDB + GROQ LLM
+    </div>
+
 </div>
 """, unsafe_allow_html=True)
-
 # ENV
 app_dir = os.path.dirname(os.path.abspath(__file__))
 load_dotenv(os.path.join(app_dir, "../.env"))

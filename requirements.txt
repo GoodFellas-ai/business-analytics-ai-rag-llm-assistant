@@ -9,7 +9,6 @@ langchain==0.2.1
 langchain-community==0.2.1
 langchain-huggingface==0.0.3
 langchain-groq==0.1.5
-langchain-classic==0.2.0
 
 chromadb==0.4.24
 
@@ -18,3 +17,5 @@ sentence-transformers==2.6.1
 
 protobuf==3.20.3
 grpcio==1.60.0
+
+rich==13.9.4

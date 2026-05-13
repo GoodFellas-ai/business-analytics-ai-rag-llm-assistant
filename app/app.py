@@ -25,12 +25,6 @@ st.set_page_config(
     layout="wide"
 )
 
-# CONFIG
-st.set_page_config(
-    page_title="Business Analytics AI",
-    layout="wide"
-)
-
 # 👇 
 st.markdown("""
 <div style="

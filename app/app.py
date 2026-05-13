@@ -65,15 +65,17 @@ if df is not None:
     col2.metric("🌍 Top Country", top_country)
     col3.metric("👥 Customers", total_customers)
 
-c1, c2 = st.columns(2)
+    # CHARTS (SAFE)
+    c1, c2 = st.columns(2)
 
-with c1:
-    st.plotly_chart(revenue_chart(df), use_container_width=True)
+    with c1:
+        st.plotly_chart(revenue_chart(df), use_container_width=True)
 
-with c2:
-    st.plotly_chart(country_chart(df), use_container_width=True)
+    with c2:
+        st.plotly_chart(country_chart(df), use_container_width=True)
 
-st.markdown("---")
+else:
+    st.info("📂 Upload a CSV file to see dashboard analytics.")
 
 # API CHECK
 if "GROQ_API_KEY" not in os.environ:

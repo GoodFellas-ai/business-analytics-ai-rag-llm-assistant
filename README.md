@@ -8,6 +8,8 @@ AI-powered Business Analytics Assistant using RAG (Retrieval-Augmented Generatio
 ----
 ----
 
+
+
 ## 🚀 Project Overview
 
 This project is an end-to-end Business Intelligence + AI application that allows users to analyze sales data using natural language questions.
@@ -61,7 +63,7 @@ Retrieval-Augmented Generation (RAG)
 
 ## 🗂️ Project Structure
 
- Bash
+Bash
 
 business-analytics-ai-rag-llm-assistant/
 │
@@ -155,6 +157,7 @@ Multi-dataset support
 Advanced business forecasting
 SQL agent integration
 
+----
 ## 👨‍💻 Author
 
-Developed by Erdal Goodman as part of an AI, Data Science and Business Intelligence portfolio project.
+Developed by Erdal ERDOĞAN -- Goodman as part of an AI, Data Science and Business Intelligence portfolio project.

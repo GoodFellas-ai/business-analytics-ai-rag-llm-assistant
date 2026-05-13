@@ -58,13 +58,14 @@ if df is not None:
     top_country = df.groupby("Country")["Revenue"].sum().idxmax()
 
     total_customers = df["CustomerID"].nunique()
+
 col1, col2, col3 = st.columns(3)
 
 col1.metric("💰 Revenue", f"${total_revenue:,.0f}")
 col2.metric("🌍 Top Country", top_country)
 col3.metric("👥 Customers", total_customers)
 
-    c1, c2 = st.columns(2)
+c1, c2 = st.columns(2)
 
 with c1:
     st.plotly_chart(revenue_chart(df), use_container_width=True)

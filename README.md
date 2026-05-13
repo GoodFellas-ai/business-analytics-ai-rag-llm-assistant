@@ -65,23 +65,23 @@ The application retrieves relevant business insights from a vector database and 
 
 Bash
 
-business-analytics-ai-rag-llm-assistant/
-│
-├── app/
-│   └── app.py
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── notebooks/
-│   ├── 01_data_cleaning_eda.ipynb
-│   ├── 02_business_metrics.ipynb
-│   └── 03_rag_preparation.ipynb
-│
-├── requirements.txt
-├── README.md
-└── .env
+- business-analytics-ai-rag-llm-assistant/
+- │
+- ├── app/
+- │   └── app.py
+- │
+- ├── data/
+- │   ├── raw/
+- │   └── processed/
+- │
+- ├── notebooks/
+- │   ├── 01_data_cleaning_eda.ipynb
+- │   ├── 02_business_metrics.ipynb
+- │   └── 03_rag_preparation.ipynb
+- │
+- ├── requirements.txt
+- ├── README.md
+- └── .env
 
 ----
 
@@ -92,7 +92,7 @@ Bash
 git clone <your-repo-link>
 cd business-analytics-ai-rag-llm-assistant
 Create a virtual environment:
-Bash
+- Bash
 python -m venv .venv
 Activate the environment:
 Windows
@@ -102,6 +102,7 @@ Bash
 
 Install dependencies:
 Bash
+
 pip install -r requirements.txt
 
 

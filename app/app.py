@@ -26,30 +26,69 @@ st.set_page_config(
 )
 
 st.markdown("""
-<div style="
-    text-align:center;
-    padding: 2rem;
-    border-radius: 16px;
-    background: linear-gradient(135deg, #1f1f2e, #2b2b40);
+<style>
+body {
+    background-color: #0b0f19;
+}
+
+.hero {
+    text-align: center;
+    padding: 2.5rem 2rem;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #0f172a, #1e1b4b, #0f172a);
     color: white;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.35);
     margin-bottom: 1.5rem;
-">
+}
 
-<h1 style="margin-bottom: 0.5rem; font-size: 2.4rem;">
-    📊 Business Analytics AI Assistant
-</h1>
+.hero h1 {
+    font-size: 2.4rem;
+    margin-bottom: 0.3rem;
+    background: linear-gradient(90deg, #4facfe, #00f2fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
-<p style="font-size: 1.1rem; opacity: 0.9;">
-    Upload your sales data and ask questions about your business
-</p>
+.hero p {
+    margin: 0.3rem 0;
+    opacity: 0.85;
+}
 
-<p style="font-size: 0.85rem; opacity: 0.7;">
-    AI-powered RAG • Streamlit • ChromaDB • GROQ
-</p>
+.badges {
+    margin-top: 0.8rem;
+}
 
+.badge {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 3px;
+    border-radius: 10px;
+    font-size: 0.75rem;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.15);
+}
+
+.chat-container {
+    background: #111827;
+    border-radius: 16px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+</style>
+
+<div class="hero">
+    <h1>📊 Business Analytics AI</h1>
+    <p>Ask questions about your data using AI</p>
+    <p>RAG + Streamlit + ChromaDB + GROQ</p>
+
+    <div class="badges">
+        <span class="badge">AI Assistant</span>
+        <span class="badge">RAG System</span>
+        <span class="badge">Vector DB</span>
+        <span class="badge">LLM</span>
+    </div>
 </div>
 """, unsafe_allow_html=True)
-
 
 # ENV
 app_dir = os.path.dirname(os.path.abspath(__file__))

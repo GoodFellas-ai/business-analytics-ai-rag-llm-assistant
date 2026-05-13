@@ -99,7 +99,7 @@ Create a virtual environment:
 - Bash
 python -m venv .venv
 Activate the environment:
-Windows
+- Windows
 Bash
 .venv\Scripts\activate
 
@@ -155,13 +155,13 @@ The application is designed for deployment on:
 
 ## 🎯 Future Improvements
 
-Advanced KPI dashboards
-RAG evaluation with RAGAS
-FAISS support
-CI/CD pipelines
-Multi-dataset support
-Advanced business forecasting
-SQL agent integration
+- Advanced KPI dashboards
+- RAG evaluation with RAGAS
+- FAISS support
+- CI/CD pipelines
+- Multi-dataset support
+- Advanced business forecasting
+- SQL agent integration
 
 ----
 ## 👨‍💻 Author

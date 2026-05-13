@@ -109,8 +109,8 @@ pip install -r requirements.txt
 ## 🔑 Environment Variables
 
 Create a .env file:
-Plain text
-GROQ_API_KEY=your_api_key_here
+- Plain text
+- GROQ_API_KEY=your_api_key_here
 
 
 ## ▶️ Run the Application
@@ -122,32 +122,32 @@ streamlit run app/app.py
 
  ## Dataset used:
 
-Online Retail Dataset
-The dataset contains transactional retail sales records including:
-Invoice information
-Products
-Quantities
-Customer IDs
-Countries
-Revenue data
-----
+- Kaggle Online Retail Dataset
+- The dataset contains transactional retail sales records including:
+- Invoice information
+- Products
+- Quantities
+- Customer IDs
+- Countries
+- Revenue data
+- ----
 
 ## 🧩 RAG Workflow
 
 Plain text
-Business Data
-→ Data Cleaning & Analytics
-→ Insight Summaries
-→ Text Embeddings
-→ ChromaDB Vector Storage
-→ Similarity Retrieval
-→ LLM Response Generation
+- Business Data
+- → Data Cleaning & Analytics
+- → Insight Summaries
+- → Text Embeddings
+- → ChromaDB Vector Storage
+- → Similarity Retrieval
+- → LLM Response Generation
 
 ## 🌍 Deployment
 
 The application is designed for deployment on:
-Hugging Face Spaces
-Streamlit Cloud
+- Hugging Face Spaces
+- Streamlit Cloud
 
 ## 🎯 Future Improvements
 

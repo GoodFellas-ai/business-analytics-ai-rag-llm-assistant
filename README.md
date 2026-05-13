@@ -14,19 +14,19 @@ AI-powered Business Analytics Assistant using RAG (Retrieval-Augmented Generatio
 
 This project is an end-to-end Business Intelligence + AI application that allows users to analyze sales data using natural language questions.
 The system combines:
-Business Analytics
-RAG Architecture
-LLM-based Question Answering
-Vector Search
+- Business Analytics
+- RAG Architecture
+- LLM-based Question Answering
+- Vector Search
 
 
 ## Interactive Dashboarding
 
 Users can ask questions such as:
-"Which country generated the highest revenue?"
-"What were the monthly sales trends?"
-"Who are the top customers?"
-"Which products performed best?"
+- "Which country generated the highest revenue?"
+- "What were the monthly sales trends?"
+- "Who are the top customers?"
+- "Which products performed best?"
 The application retrieves relevant business insights from a vector database and generates contextual responses using an LLM.
 
 ## 🧠 Technologies Used

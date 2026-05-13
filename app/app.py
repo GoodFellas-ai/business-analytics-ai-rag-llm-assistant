@@ -33,7 +33,7 @@ st.markdown("""
     color:white;
 ">
 
-  st.title("📊 Business Analytics AI Assistant")
+st.title("📊 Business Analytics AI Assistant")
 st.subheader("Please ask some kind of questions. Then get well, trivial and professional insights and make decisions..")
 st.caption("RAG + LLM + Streamlit + ChromaDB + GROQ LLM")
 

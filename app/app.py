@@ -28,30 +28,32 @@ st.set_page_config(
 # HERO UI
 st.markdown("""
 <div style="
-    padding: 3.2rem 2rem;
-    border-radius: 24px;
-    background: radial-gradient(circle at top, #0f172a, #020617);
-    color: white;
-    box-shadow: 0 20px 60px rgba(0,0,0,0.55);
-    margin-bottom: 2rem;
     text-align:center;
+    padding: 2rem 1rem;
+    color:white;
 ">
 
     <div style="
-        font-size: 4rem;
+        font-size: 3.5rem;
         font-weight: 800;
-        background: linear-gradient(90deg, #4facfe, #00f2fe, #38bdf8);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: #00f2fe;
     ">
         📊 Business Analytics AI
     </div>
 
-    <div style="font-size:1.25rem; opacity:0.85;">
-        Ask questions. Get insights. Make decisions.
+    <div style="
+        font-size: 1.25rem;
+        margin-top: 0.5rem;
+        opacity: 0.85;
+    ">
+        Please ask some kind of questions. Then,  Get insights and Make decisions.
     </div>
 
-    <div style="font-size:0.95rem; opacity:0.6; margin-top:5px;">
+    <div style="
+        font-size: 0.95rem;
+        margin-top: 0.3rem;
+        opacity: 0.6;
+    ">
         RAG + Streamlit + ChromaDB + GROQ LLM
     </div>
 

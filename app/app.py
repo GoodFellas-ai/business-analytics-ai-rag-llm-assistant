@@ -29,40 +29,62 @@ st.markdown("""
 <style>
 .hero {
     text-align: center;
-    padding: 3rem 2rem;
-    border-radius: 20px;
-    background: linear-gradient(135deg, #0f172a, #1e1b4b, #0f172a);
+    padding: 3.2rem 2rem;
+    border-radius: 24px;
+    background: radial-gradient(circle at top, #0f172a, #020617);
     color: white;
-    box-shadow: 0 10px 40px rgba(0,0,0,0.35);
-    margin-bottom: 1.5rem;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.55);
+    margin-bottom: 2rem;
+    border: 1px solid rgba(255,255,255,0.08);
 }
 
+/* BIG TITLE (LEVEL 2 UPGRADE) */
 .hero h1 {
-    font-size: 3.4rem;   
-    margin-bottom: 0.5rem;
-    background: linear-gradient(90deg, #4facfe, #00f2fe);
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 0.6rem;
+    background: linear-gradient(90deg, #4facfe, #00f2fe, #38bdf8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    letter-spacing: 1px;
 }
 
+/* subtitle */
 .hero p {
-    font-size: 1.2rem;
-    margin: 0.3rem 0;
+    font-size: 1.25rem;
+    margin: 0.4rem 0;
     opacity: 0.85;
 }
 
+/* tech line */
+.hero .sub {
+    font-size: 0.95rem;
+    opacity: 0.65;
+    margin-bottom: 1.5rem;
+}
+
+/* badges row (LEVEL 2 glass style) */
 .badges {
-    margin-top: 1rem;
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .badge {
-    display: inline-block;
-    padding: 6px 12px;
-    margin: 4px;
-    border-radius: 10px;
-    font-size: 0.75rem;
-    background: rgba(255,255,255,0.08);
-    border: 1px solid rgba(255,255,255,0.15);
+    padding: 7px 14px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+}
+
+.badge:hover {
+    transform: scale(1.05);
+    background: rgba(255,255,255,0.12);
 }
 </style>
 
@@ -70,15 +92,15 @@ st.markdown("""
 
     <h1>📊 Business Analytics AI</h1>
 
-    <p>Ask questions about your data using AI</p>
+    <p>Ask questions. Get insights. Make decisions.</p>
 
-    <p>RAG + Streamlit + ChromaDB + GROQ</p>
+    <p class="sub">RAG-powered analytics assistant built with Streamlit + ChromaDB + GROQ LLM</p>
 
     <div class="badges">
-        <span class="badge">AI Assistant</span>
-        <span class="badge">RAG System</span>
-        <span class="badge">Vector DB</span>
-        <span class="badge">LLM</span>
+        <span class="badge">🤖 AI Assistant</span>
+        <span class="badge">🧠 RAG System</span>
+        <span class="badge">📦 Vector DB</span>
+        <span class="badge">⚡ GROQ LLM</span>
     </div>
 
 </div>

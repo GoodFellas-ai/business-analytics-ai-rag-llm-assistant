@@ -33,32 +33,9 @@ st.markdown("""
     color:white;
 ">
 
-    <div style="
-        font-size: 3.5rem;
-        font-weight: 800;
-        color: #00f2fe;
-    ">
-        📊 Business Analytics AI
-    </div>
-
-    <div style="
-        font-size: 1.25rem;
-        margin-top: 0.5rem;
-        opacity: 0.85;
-    ">
-        Please ask some kind of questions. Then,  Get insights and Make decisions.
-    </div>
-
-    <div style="
-        font-size: 0.95rem;
-        margin-top: 0.3rem;
-        opacity: 0.6;
-    ">
-        RAG + Streamlit + ChromaDB + GROQ LLM
-    </div>
-
-</div>
-""", unsafe_allow_html=True)
+  st.title("📊 Business Analytics AI Assistant")
+st.subheader("Please ask some kind of questions. Then get well, trivial and professional insights and make decisions..")
+st.caption("RAG + LLM + Streamlit + ChromaDB + GROQ LLM")
 
 # ENV
 app_dir = os.path.dirname(os.path.abspath(__file__))

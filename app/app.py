@@ -32,10 +32,11 @@ st.markdown("""
     padding: 2rem 1rem;
     color:white;
 ">
-
-st.title("📊 Business Analytics AI Assistant")
-st.subheader("Please ask some kind of questions. Then get well, trivial and professional insights and make decisions..")
-st.caption("RAG + LLM + Streamlit + ChromaDB + GROQ LLM")
+    <h1>📊 Business Analytics AI Assistant</h1>
+    <p>Please ask questions and get insights.</p>
+    <small>RAG + LLM + Streamlit + ChromaDB + GROQ</small>
+</div>
+""", unsafe_allow_html=True)
 
 # ENV
 app_dir = os.path.dirname(os.path.abspath(__file__))

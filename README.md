@@ -119,7 +119,7 @@ streamlit run app/app.py
 
 ## 📈 Dataset
 
- "" Dataset used:
+ ## Dataset used:
 
 Online Retail Dataset
 The dataset contains transactional retail sales records including:
@@ -129,7 +129,7 @@ Quantities
 Customer IDs
 Countries
 Revenue data
-
+----
 
 ## 🧩 RAG Workflow
 

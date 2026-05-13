@@ -8,7 +8,11 @@ AI-powered Business Analytics Assistant using RAG (Retrieval-Augmented Generatio
 ----
 ----
 
+## 🚀 Live Demo
 
+https://business-analytics-ai-rag-llm-assistant-fe5mq66x8qs9hf7fdypwch.streamlit.app/
+
+----
 
 ## 🚀 Project Overview
 

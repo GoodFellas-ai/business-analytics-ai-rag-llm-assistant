@@ -26,6 +26,7 @@ st.set_page_config(
 )
 
 st.title("📊 Business Analytics AI Assistant")
+---
 st.text("Upload your sales data and ask questions about your business!")
 st.text("This AI-LLM-RAG application deployed on Streamlit, using ChromaDB for vector storage and GROQ for LLM responses.")
 # ENV

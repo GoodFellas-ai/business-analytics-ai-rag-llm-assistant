@@ -25,10 +25,38 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("📊 Business Analytics AI Assistant")
+# CONFIG
+st.set_page_config(
+    page_title="Business Analytics AI",
+    layout="wide"
+)
 
-st.text("Upload your sales data and ask questions about your business!")
-st.text("This AI-LLM-RAG application deployed on Streamlit, using ChromaDB for vector storage and GROQ for LLM responses.")
+# 👇 
+st.markdown("""
+<div style="
+    padding: 2rem;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #1f1f2e, #2b2b40);
+    color: white;
+    text-align: center;
+    box-shadow: 0px 8px 24px rgba(0,0,0,0.25);
+    margin-bottom: 1.5rem;
+">
+
+    <h1 style="margin-bottom: 0.5rem; font-size: 2.2rem;">
+        📊 Business Analytics AI Assistant
+    </h1>
+
+    <p style="font-size: 1.1rem; opacity: 0.9;">
+        Upload your sales data and ask questions about your business
+    </p>
+
+    <p style="font-size: 0.9rem; opacity: 0.7;">
+        AI-powered RAG system using Streamlit • ChromaDB • GROQ LLM
+    </p>
+
+</div>
+""", unsafe_allow_html=True)
 
 
 # ENV

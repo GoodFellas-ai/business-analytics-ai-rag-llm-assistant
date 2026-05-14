@@ -1,0 +1,33 @@
+In 2010-12, the business generated a total revenue of 554604.02 across 1708 transactions from 948 unique customers.
+In 2011-01, the business generated a total revenue of 475074.38 across 1236 transactions from 783 unique customers.
+In 2011-02, the business generated a total revenue of 436546.15 across 1202 transactions from 798 unique customers.
+In 2011-03, the business generated a total revenue of 579964.61 across 1619 transactions from 1020 unique customers.
+In 2011-04, the business generated a total revenue of 426047.85 across 1384 transactions from 899 unique customers.
+In 2011-05, the business generated a total revenue of 648251.08 across 1849 transactions from 1079 unique customers.
+In 2011-06, the business generated a total revenue of 608013.16 across 1707 transactions from 1051 unique customers.
+In 2011-07, the business generated a total revenue of 574238.48 across 1593 transactions from 993 unique customers.
+In 2011-08, the business generated a total revenue of 616368.00 across 1544 transactions from 980 unique customers.
+In 2011-09, the business generated a total revenue of 931440.37 across 2078 transactions from 1302 unique customers.
+In 2011-10, the business generated a total revenue of 974603.59 across 2263 transactions from 1425 unique customers.
+In 2011-11, the business generated a total revenue of 1132407.74 across 3086 transactions from 1711 unique customers.
+In 2011-12, the business generated a total revenue of 342506.38 across 921 transactions from 686 unique customers.
+The country United Kingdom is a top market with a total revenue of 6767873.39.
+The country Netherlands is a top market with a total revenue of 284661.54.
+The country EIRE is a top market with a total revenue of 250285.22.
+The country Germany is a top market with a total revenue of 221698.21.
+The country France is a top market with a total revenue of 196712.84.
+The country Australia is a top market with a total revenue of 137077.27.
+The country Switzerland is a top market with a total revenue of 55739.40.
+The country Spain is a top market with a total revenue of 54774.58.
+The country Belgium is a top market with a total revenue of 40910.96.
+The country Sweden is a top market with a total revenue of 36595.91.
+The product 'WORLD WAR 2 GLIDERS ASSTD DESIGNS' is a best-seller with a total of 53215 units sold.
+The product 'JUMBO BAG RED RETROSPOT' is a best-seller with a total of 45066 units sold.
+The product 'ASSORTED COLOUR BIRD ORNAMENT' is a best-seller with a total of 35314 units sold.
+The product 'WHITE HANGING HEART T-LIGHT HOLDER' is a best-seller with a total of 34147 units sold.
+The product 'PACK OF 72 RETROSPOT CAKE CASES' is a best-seller with a total of 33409 units sold.
+The product 'POPCORN HOLDER' is a best-seller with a total of 30504 units sold.
+The product 'RABBIT NIGHT LIGHT' is a best-seller with a total of 27094 units sold.
+The product 'MINI PAINT SET VINTAGE ' is a best-seller with a total of 25880 units sold.
+The product 'PACK OF 12 LONDON TISSUES ' is a best-seller with a total of 25321 units sold.
+The product 'PACK OF 60 PINK PAISLEY CAKE CASES' is a best-seller with a total of 24163 units sold.
